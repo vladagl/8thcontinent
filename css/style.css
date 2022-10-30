@@ -60,7 +60,13 @@ body {
   color: black;
 }
 
-  .wrapper {
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* header st */
+.wrapper {
   max-width: 1060px;
   margin: 0 auto;
 }
@@ -95,8 +101,90 @@ body {
   text-decoration: none;
 }
 
+/* header end */
+
+/* banner st */
+
 .intro {
-  height: 95vh;
+  min-height: 95vh;
   background: url(../img/banner.jpg) no-repeat center;
   background-size: cover;
+  padding-top: 245px;
 }
+.intro_title {
+  max-width: 480px;
+  font-weight: 600;
+  font-size: 51px;
+  line-height: 60px;
+  letter-spacing: 0.095em;
+  color: white;
+  margin-bottom: -5px;
+}
+.intro_continent {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 77px;
+  line-height: 100px;
+  letter-spacing: 0.115em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 3px #FFFFFF;
+}
+.intro_continent:hover {
+  -webkit-text-fill-color: #4DB6DB;
+}
+
+/* banner end */
+
+/* benefits st*/
+
+.benefits_wrap {
+  max-width: 783px;
+  max-height: 267px;
+  background-color: white;
+  margin: 0 auto;
+  position: relative;
+}
+.benefits_card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 21px;
+  padding: 0 100px;
+  margin-top: 77px;
+}
+.benefits_card {
+  grid-column: span 1;
+}
+.benefits_card_pic {
+  margin-bottom: 22.56px;
+  max-width: 110px;
+  display: flex;
+  align-items: center;
+}
+.benefits_card_thumb {
+  display: block;
+  margin: 0 auto;
+  margin-left: 20px;
+}
+.benefits_card_title {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 26px;
+}
+.benefits_card_desc {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 106%;
+  text-align: center;
+  margin-bottom: 88px;
+}
+
+/*benefits end*/
