@@ -144,6 +144,7 @@ img {
   background-color: white;
   margin: 0 auto;
   position: relative;
+  margin-bottom: 88px;
 }
 .benefits_card {
   display: grid;
@@ -157,7 +158,6 @@ img {
 }
 .benefits_card_pic {
   margin-bottom: 22.56px;
-  max-width: 110px;
   display: flex;
   align-items: center;
 }
@@ -188,3 +188,67 @@ img {
 }
 
 /*benefits end*/
+
+/* upcoming st*/
+
+.upcoming_title {
+  font-weight: 500;
+  font-size: 29px;
+  line-height: 106%;
+  text-align: center;
+  margin-bottom: 19px;
+}
+.upcoming_line {
+  max-width: 580px;
+  margin-bottom: 65px;
+}
+.upcoming_wrap {
+  max-width: 1305px;
+  margin: 0 auto;
+}
+.upcoming_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 180px;
+  padding: 0 142px;
+}
+.upcoming_card {
+  grid-column: span 1;
+}
+.upcoming_name {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 26px;
+}
+.upcoming_card_pic {
+  margin-bottom: 18px;
+  max-width: 220px;
+}
+.upcoming_card_img {
+  display: block;
+}
+.details_form_submit {
+  display: flex;
+  justify-content: center;
+  min-width: 220px;
+  padding: 9px 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.095em;
+  color: black;
+  background: rgba(77, 182, 219, 0.56);
+  border: 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+}
