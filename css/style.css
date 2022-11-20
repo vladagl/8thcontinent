@@ -232,6 +232,11 @@ img {
 }
 .upcoming_card_img {
   display: block;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+.upcoming_card_img:hover {
+  transform: scale(1.1);
 }
 .details_form_submit {
   display: flex;
