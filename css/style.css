@@ -77,6 +77,7 @@ img {
   position: fixed;
   width: 100%;
   left: 0;
+  z-index: 1;
 }
 .header_wrapper {
   display: flex;
@@ -421,10 +422,58 @@ img {
 }
 .choose_line {
   max-width: 580px;
-  margin-bottom: 65px;
 }
 .choose_wrap {
   max-width: 1305px;
   margin: 0 auto;
+}
+.block {
+  height: 590px;
+  left: 0px;
+  top: 246px;
+  background: #F6F1F1;
+  margin-top:-150px;
+}
+.choose_cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+  padding-right: 130px;
+  padding-left: 130px;
+}
+.choose_card {
+  grid-column: span 1;
+  top: -390px;
+}
+.choose_name {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.choose_card_pic {
+  margin-bottom: 14px;
+  width: 250px;
+}
+.choose_card_img {
+  display: block;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+.choose_card_img:hover {
+  transform: scale(1.1);
+}
+.block, .choose_card {
+  position: relative;
+}
+.upcoming_1 {
+  margin-top:-300px;
 }
 /* choose end*/
