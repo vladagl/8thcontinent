@@ -476,4 +476,75 @@ img {
 .upcoming_1 {
   margin-top:-300px;
 }
+
 /* choose end*/
+
+/* block 3 st*/
+
+.help {
+  height: 590px;
+  left: 0px;
+  top: 246px;
+  background: #F6F1F1;
+  margin-top: 130px;
+}
+.help_title {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 106%;
+  max-width: 580px;
+  padding-top: 55px;
+  padding-left: 130px;
+  margin-bottom: 58px;
+}
+.help_first {
+  display: grid;
+  grid-template-columns: 199px 781px;
+  grid-gap: 0 31px;
+  background: white;
+  margin-bottom: 22px;
+  margin-right: 20px;
+  margin-left: 330px;
+  max-height: 192px;
+}
+.help_info {
+  padding-top: 22px;
+}
+.help_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 106%;
+}
+.help_more_first {
+  max-width: 8em;
+  min-height: 2em;
+  margin-right: 20px;
+  margin-left: 739px;
+  margin-top: -64px;
+}
+.help_form_submit {
+  display: flex;
+  justify-content: center;
+  min-width: 220px;
+  padding: 9px 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.095em;
+  color: black;
+  background: rgba(245, 205, 184, 0.74);
+  border: 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+}
+.help_form_submit:hover {
+  opacity: 0.75;
+}
+
+
+/* block 3 end*/
