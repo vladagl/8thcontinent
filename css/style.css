@@ -482,7 +482,7 @@ img {
 /* block 3 st*/
 
 .help {
-  height: 590px;
+  height: 1031px;
   left: 0px;
   top: 246px;
   background: #F6F1F1;
@@ -501,16 +501,17 @@ img {
 }
 .help_first {
   display: grid;
-  grid-template-columns: 199px 781px;
+  grid-template-columns: 199px 650px;
   grid-gap: 0 31px;
   background: white;
-  margin-bottom: 22px;
-  margin-right: 20px;
+  margin-bottom: 58px;
+  margin-right: 130px;
   margin-left: 330px;
   max-height: 192px;
 }
 .help_info {
   padding-top: 22px;
+  min-width: 650px;
 }
 .help_text {
   font-weight: 400;
@@ -520,8 +521,8 @@ img {
 .help_more_first {
   max-width: 8em;
   min-height: 2em;
-  margin-right: 20px;
-  margin-left: 739px;
+  margin-right: 130px;
+  margin-left: 650px;
   margin-top: -64px;
 }
 .help_form_submit {
@@ -545,6 +546,15 @@ img {
 .help_form_submit:hover {
   opacity: 0.75;
 }
-
+.help_second {
+  display: grid;
+  grid-template-columns: 199px 520px;
+  grid-gap: 0 31px;
+  background: white;
+  margin-bottom: 58px;
+  margin-left: 131px;
+  margin-right: 330px;
+  max-height: 192px;
+}
 
 /* block 3 end*/
